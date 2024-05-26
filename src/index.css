@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(157,118,95,0.9893207282913166) 55%, rgba(52,86,126,1) 87%, rgba(74,70,97,1) 100%);
+}
+.customBackground{
+
+  background: rgba( 255, 255, 255, 0.15 );
+
+  backdrop-filter: blur( 19.5px );
+  -webkit-backdrop-filter: blur( 19.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
