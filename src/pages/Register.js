@@ -10,7 +10,7 @@ const Register = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:5000/api/register', { email, password });
+      const response = await axios.post('https://reactbackend-1-ryla.onrender.com/api/register', { email, password });
       setSuccessMessage(response.data.message);
        alert(response.data.message)
       setEmail('');

@@ -11,7 +11,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:5000/api/login', { email, password });
+      const response = await axios.post('https://reactbackend-1-ryla.onrender.com/api/login', { email, password });
       
       console.log(response.data);
       alert(response.data.message)

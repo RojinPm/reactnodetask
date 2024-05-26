@@ -10,7 +10,7 @@ const Content = () => {
     useEffect(() => {
         const fetchItems = async () => {
           try {
-            const response = await axios.get('http://localhost:5000/api/getitem');
+            const response = await axios.get('https://reactbackend-1-ryla.onrender.com/api/getitem');
             setItems(response.data);
           } catch (error) {
             console.error('Error fetching data:', error);
